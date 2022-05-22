@@ -17,10 +17,7 @@
         <h1>Convert normal text to bionic text</h1>
         <p><a href="https://bionic-reading.com/">Bionic text</a> converts normal text to <b>lo</b>ok <b>li</b>ke <b>thi</b>s, <b>allo</b>wing <b>fo</b>r <b>signifi</b>cantly <b>fas</b>ter <b>read</b>ing.</p>
         <div class="main-container">
-            <textarea class="before" id="before"></textarea>
-            <button onclick="convert()">
-                Convert
-            </button>
+            <textarea class="before" id="before" onkeyup="convert()"></textarea>
             <div class="after" id="after" contenteditable="true"></div>
         </div>
         <h2>Output as HTML</h2>
